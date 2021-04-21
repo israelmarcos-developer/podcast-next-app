@@ -1,4 +1,4 @@
-
+// component player
 import styles from './styles.module.scss'
 
 export function Player() {
@@ -22,16 +22,18 @@ export function Player() {
           <div className={styles.emptySlider} />
           </div>
           <span>00:00</span>
-
         </div>
 
         <div className={styles.buttons}>
+
           <button type="button">
             <img src="shuffle.svg" alt="Embaralhar" />
           </button>
+
           <button type="button">
             <img src="play-previous.svg" alt="Tocar anterior" />
           </button>
+
           <button type="button" className={styles.playButton}>
             <img src="play.svg" alt="Tocar" />
           </button>
@@ -43,7 +45,6 @@ export function Player() {
           <button type="button" className={styles.playButton}>
             <img src="repeat.svg" alt="Repetir" />
           </button>
-
 
         </div>
       </footer>
