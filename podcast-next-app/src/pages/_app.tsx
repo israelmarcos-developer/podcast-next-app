@@ -17,8 +17,6 @@ function MyApp({ Component, pageProps }) {
     setEpisodeList([episode])
     setCurrentEpisodeIndex(0)
   }
-
-
   return(
 
     <PlayerContext.Provider value={{ episodeList, currentEpisodeIndex, play}}>
